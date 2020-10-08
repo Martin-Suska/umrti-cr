@@ -14,15 +14,19 @@ Len som mierne upravil formát, aby ich vzal môj MS Excel. Použil som dáta za
 
 # Graf 1 - "à la Ledecký"
 
-Je podobné tomu, čo prezentuje Ledecký. Nie je patrný žiadny nárast.
+![Graf 1](/files/graf1_big.png)
+
+Je podobny tomu, čo prezentuje Ledecký. Nie je patrný žiadny nárast.
 
 **Problém:** nárast nie je vidieť, lebo tie čísla úmrtí su rádovo (100x menšie)
 
 # Graf 2
 
-Problém z grafu + sa dá ľahko vysvetliť, tým, že sa zmení mierka pre úmrtia. Excel rozmedzia nastavil automaticky:
+Problém z grafu 1 sa dá ľahko vysvetliť, tým, že sa zmení mierka pre úmrtia. Excel rozmedzia nastavil automaticky:
 - 0 - 5000 pre pozitívne testovaných
 - 0 - 35 pre úmrtia
+
+![Graf 2](/files/graf2_big.png)
 
 # Graf 3
 
@@ -32,3 +36,4 @@ Je to niečo na spôsob "pre stromy nie je vidieť les"...
 
 Preto som sa rozhodol použiť 4-dňový kĺzavý priemer, aby sa tie krivky !vyhladili". Prečo 4-dňový? Jednoducho preto, aby boli 2 víkendové dni (keď sa testuje menej) vykompenzované.
 
+![Graf 3](/files/graf3_big.png)
